@@ -14,7 +14,7 @@ A comprehensive machine learning project that predicts heart failure mortality r
 - [Results & Insights](#results--insights)
 - [Contributing](#contributing)
 
-## 🎯 Project Overview
+##  Project Overview
 
 Heart failure is a serious medical condition affecting millions worldwide. This project leverages machine learning to predict patient mortality risk based on clinical features, providing:
 
@@ -23,13 +23,13 @@ Heart failure is a serious medical condition affecting millions worldwide. This 
 - **Interactive Dashboard**: User-friendly Streamlit application for risk assessment
 - **Clinical Insights**: Actionable recommendations based on risk stratification
 
-### 🎓 Use Cases
+###  Use Cases
 - Clinical decision support for healthcare professionals
 - Research and educational demonstrations
 - Risk stratification for patient management
 - Model performance evaluation and comparison
 
-## 📊 Dataset Description
+##  Dataset Description
 
 **Source**: Heart Failure Clinical Records Dataset  
 **Patients**: 299 individuals  
@@ -62,7 +62,7 @@ Heart failure is a serious medical condition affecting millions worldwide. This 
 - **Missing Values**: None
 - **Duplicate Records**: None
 
-## 🏆 Model Performance
+##  Model Performance
 
 Four machine learning models were trained and evaluated using stratified cross-validation:
 
@@ -99,28 +99,28 @@ Four machine learning models were trained and evaluated using stratified cross-v
 | LightGBM | 81.67% | 78.57% | 57.89% | 66.67% |
 | Logistic Regression | 81.67% | 78.57% | 57.89% | 66.67% |
 
-## ✨ Key Features
+##  Key Features
 
-### 1. 📓 Jupyter Notebooks (Complete ML Pipeline)
+### 1.  Jupyter Notebooks (Complete ML Pipeline)
 - **01_eda_and_cleaning.ipynb**: Data exploration and preprocessing
 - **02_model_training.ipynb**: Model development and hyperparameter tuning
 - **03_model_interpretation.ipynb**: SHAP analysis and feature importance
 - **04_model_evaluation.ipynb**: Comprehensive performance evaluation
 
-### 2. 🚀 Interactive Dashboard
+### 2.  Interactive Dashboard
 - **Real-time Predictions**: Input patient data and get instant risk assessments
 - **SHAP Explanations**: Understand which features drive each prediction
 - **Visual Analytics**: ROC curves, confusion matrices, correlation heatmaps
 - **Risk Stratification**: Color-coded risk categories (Low/Medium/High)
 - **Clinical Recommendations**: Actionable insights based on risk level
 
-### 3. 🔍 Model Interpretability
+### 3.  Model Interpretability
 - SHAP waterfall plots for individual predictions
 - Feature importance rankings
 - Top 3 contributing factors with human-readable explanations
 - Confidence scores for predictions
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -147,7 +147,7 @@ This will install all required packages including:
 - Dashboard: streamlit
 - Utilities: joblib, openpyxl
 
-## 📖 Usage
+##  Usage
 
 ### Option 1: Run the Interactive Dashboard (Recommended)
 
@@ -277,27 +277,27 @@ heart-failure-project/
 - **pandas & numpy**: Data manipulation
 - **matplotlib & seaborn**: Visualizations
 
-## 📈 Results & Insights
+##  Results & Insights
 
 ### Top Predictive Features (SHAP Analysis)
 
-1. **⏱️ Time (Follow-up Period)**: Most important predictor
+1. ** Time (Follow-up Period)**: Most important predictor
    - Longer follow-up correlates with survival
    - Short follow-up periods indicate higher risk
 
-2. **💪 Ejection Fraction**: Critical cardiac function metric
+2. ** Ejection Fraction**: Critical cardiac function metric
    - Low ejection fraction (<30%) significantly increases risk
    - Every 10% decrease raises mortality probability
 
-3. **🩸 Serum Creatinine**: Kidney function indicator
+3. ** Serum Creatinine**: Kidney function indicator
    - Elevated levels (>1.5 mg/dL) associated with poor prognosis
    - Reflects overall organ function deterioration
 
-4. **🧂 Serum Sodium**: Electrolyte balance
+4. ** Serum Sodium**: Electrolyte balance
    - Hyponatremia (<135 mEq/L) indicates severity
    - Critical for fluid management
 
-5. **👤 Age**: Demographic risk factor
+5. ** Age**: Demographic risk factor
    - Age >65 increases baseline risk
    - Combined effect with other factors
 
@@ -313,33 +313,14 @@ heart-failure-project/
 - Single-center data (generalizability)
 - Temporal aspects (follow-up time as predictor)
 
-## 🤝 Contributing
 
-Contributions are welcome! Areas for improvement:
-- External validation on different datasets
-- Deep learning models (neural networks)
-- Additional clinical features
-- Longitudinal analysis
-- Deployment to cloud platforms
-
-## 📄 License
+##  License
 
 This project is for educational and research purposes.
 
-## 📞 Contact
-
-For questions or collaboration opportunities, please open an issue in the repository.
-
-## 🙏 Acknowledgments
-
-- Dataset: [UCI Machine Learning Repository / Kaggle]
-- SHAP library for interpretability framework
-- Streamlit for dashboard framework
-- scikit-learn for ML infrastructure
-
 ---
 
-## 🚀 Quick Start Commands
+##  Quick Start Commands
 
 ```bash
 # Install dependencies
@@ -355,7 +336,7 @@ jupyter notebook
 # Open browser to http://localhost:8501
 ```
 
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
 The dashboard includes:
 - **Risk Calculator**: Input patient data → Get instant risk prediction
@@ -367,7 +348,5 @@ The dashboard includes:
 
 **Built with ❤️ for Healthcare AI**
 
-*Last Updated: December 2024*
-*Version: 1.0.0*
 
 
